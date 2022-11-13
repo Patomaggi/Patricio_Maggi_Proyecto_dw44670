@@ -1,0 +1,466 @@
+
+
+/* COMPARTIDO */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    margin:0;
+    padding: 0;
+    }
+    
+header{height: 150px;}
+
+.logo{height: 100%;
+    width: 100%;
+}
+
+nav{background-color:  rgb(56, 90, 56);
+    ul{display: flex;
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        li{font-size:20px ;
+            a{
+                font-size: 20px;
+                color: white;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: none;
+                }
+        }
+    }
+}
+
+main{background-color:grey;}
+
+img{
+    width: 100%;
+    height:90%;
+    object-fit: cover;
+}
+
+.bi-facebook{
+    color: rgb(51, 49, 49);
+    font-size: 25px;}
+.bi-facebook:hover{
+    color: rgb(77, 77, 224);
+    font-size: 50px;}
+
+.bi-instagram{
+    color: rgb(51, 49, 49);
+    font-size: 25px;}
+.bi-instagram:hover{
+    color: rgb(243, 115, 243);
+    font-size: 50px;}
+
+.bi-twitter{
+    color: rgb(51, 49, 49);
+    font-size: 25px;}
+.bi-twitter:hover{
+    color: rgb(66, 139, 248);
+    font-size: 50px;}
+
+.bi-youtube{
+    color: rgb(51, 49, 49);
+    font-size: 25px;}
+.bi-youtube:hover{
+    color: red;
+    font-size: 50px;}
+
+footer{
+    background-color: black;
+    height: 50px;
+    p{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+/* INDEX */
+
+h3{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+@keyframes Integrantes {
+    from{opacity: 0;}
+    to{opacity: 1;}}
+
+.padre{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    animation-name: Integrantes;
+    animation-duration: 3s;
+    .hijo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(56, 90, 56);
+        height: 90%;
+        width: 30%;
+        .img_card{
+            height: 250px;
+            width: 90%;}
+        .parrafo_card{
+            width: 90%;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: white;}
+    }
+}
+
+
+
+/* GALERIA */
+#grilla{
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 90%;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    background-color: gray;
+    grid-template-areas:"a1"
+                        "a2"
+                        "a3"
+                        "a4"
+                        "a5"
+                        "a6";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content:space-around ;
+    
+    #hijo_uno{
+    background-color: gray;
+    grid-area: a1;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_dos{
+    background-color: gray;
+    grid-area: a2;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_tres{
+    background-color: gray;
+    grid-area: a3;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_cuatro{
+    background-color: gray;
+    grid-area: a4;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_cinco{
+    background-color: gray;
+    grid-area: a5;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_seis{
+    background-color: gray;
+    grid-area: a6;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+}
+
+
+/* DISCOGRAFIA */
+
+.discografia{
+    color: red;
+
+}
+
+
+
+
+
+
+
+/* TOURS */
+
+.tours{height: 600px;
+}
+
+th{
+    font-size: 20px;
+}
+
+td{
+    font-size: 15px;
+}
+
+
+/* CONTACTOS */
+.formulario{
+    background-color: rgb(112, 89, 89);
+}
+
+.contacto{
+    font-size: 20px;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* A PARTIR DE 600PX MONITORES Y LEDS */
+
+@media only screen and (min-width:600px ){
+
+/* COMPARTIDO */
+
+header{
+    height: 400px;
+}
+
+.logo{height: 100%;
+    width: 100%;
+}
+
+
+nav{background-color:  rgb(56, 90, 56);
+    ul{display: flex;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        li{font-size:40px ;
+            a{
+                font-size: 40px;
+                color: white;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: none;
+                }
+        }
+    }
+}
+
+.bi-facebook{
+    font-size: 40px;}
+.bi-facebook:hover{
+    font-size: 60px;}
+
+.bi-instagram{
+    font-size: 40px;}
+.bi-instagram:hover{
+    font-size: 60px;}
+
+.bi-twitter{
+    font-size: 40px;}
+.bi-twitter:hover{
+    font-size: 60px;}
+
+.bi-youtube{
+    font-size: 40px;}
+.bi-youtube:hover{
+    font-size: 60px;}
+
+footer{
+    height: 100px;
+    p{
+        font-size: 60px;}
+}
+
+
+
+/* INDEX */
+
+h3{
+    font-size: 50px;
+}
+h2{
+    font-size: 80px;
+}
+
+.padre{
+    height: 1200px;
+    
+    .hijo{
+        height: 90%;
+        width: 30%;
+        .img_card{
+            height: 500px;}
+        .parrafo_card{
+            font-size: 30px;}
+    }
+}
+
+
+
+/* GALERIA */
+
+#grilla{
+    
+    height: 800px;
+    grid-template-rows: 45% 45%;
+    grid-template-columns: 30% 30% 30%;
+    background-color: gray;
+    grid-template-areas:"a1 a2 a3"
+                        "a4 a5 a6";
+                        display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content:space-around ;
+
+    #hijo_uno{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_uno:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_dos{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_dos:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_tres{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_tres:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_cuatro{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_cuatro:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_cinco{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_cinco:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_seis{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_seis:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+    }
+
+/* DISCOGRAFIA */
+
+
+
+/* TOURS */
+
+.tours{height: 1000px;
+}
+
+th{
+    font-size: 60px;
+}
+
+td{
+    font-size: 30px;
+}
+
+
+
+/* CONTACTOS */
+.formulario{
+    background-color: rgb(112, 89, 89);
+}
+
+.contacto{
+    font-size: 40px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
