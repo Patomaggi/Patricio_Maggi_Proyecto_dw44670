@@ -1,0 +1,25 @@
+
+@media only screen and (min-width:600px ){
+
+    /* INDEX */
+
+h3{
+    font-size: 50px;
+}
+h2{
+    font-size: 80px;
+}
+
+.padre{
+    height: 1200px;
+    
+    .hijo{
+        height: 90%;
+        width: 30%;
+        .img_card{
+            height: 500px;}
+        .parrafo_card{
+            font-size: 30px;}
+    }
+}
+}

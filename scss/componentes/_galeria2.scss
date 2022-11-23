@@ -1,0 +1,68 @@
+
+@media only screen and (min-width:600px ){
+
+    /* GALERIA */
+
+#grilla{
+    
+    height: 800px;
+    grid-template-rows: 45% 45%;
+    grid-template-columns: 30% 30% 30%;
+    background-color: gray;
+    grid-template-areas:"a1 a2 a3"
+                        "a4 a5 a6";
+                        display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content:space-around ;
+
+    #hijo_uno{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_uno:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_dos{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_dos:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_tres{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_tres:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_cuatro{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_cuatro:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_cinco{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_cinco:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+
+    #hijo_seis{
+        filter: grayscale(100%);
+        transition: all 1s ;}
+
+    #hijo_seis:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0%);}
+    }
+}

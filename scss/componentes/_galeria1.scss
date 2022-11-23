@@ -1,0 +1,56 @@
+
+/* GALERIA */
+#grilla{
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 90%;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    background-color: gray;
+    grid-template-areas:"a1"
+                        "a2"
+                        "a3"
+                        "a4"
+                        "a5"
+                        "a6";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content:space-around ;
+    
+    #hijo_uno{
+    background-color: gray;
+    grid-area: a1;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_dos{
+    background-color: gray;
+    grid-area: a2;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_tres{
+    background-color: gray;
+    grid-area: a3;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_cuatro{
+    background-color: gray;
+    grid-area: a4;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_cinco{
+    background-color: gray;
+    grid-area: a5;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+    #hijo_seis{
+    background-color: gray;
+    grid-area: a6;
+    width: 90%;
+    height: 90%;
+    align-self: center;}
+}

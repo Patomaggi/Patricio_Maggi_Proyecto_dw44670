@@ -1,0 +1,56 @@
+
+@media only screen and (min-width:600px ){
+
+    /* COMPARTIDO */
+    
+    header{
+        height: 250px;
+    
+        img{
+            height: 100%;
+        }
+    }
+    
+    nav{background-color:  $color_principal;
+        ul{display: flex;
+            height: 100px;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            li{font-size:30px ;
+                a{
+                    font-size: 30px;
+                    color: white;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    text-decoration: none;
+                    }
+            }
+        }
+    }
+    
+    .bi-facebook{
+        font-size: 40px;}
+    .bi-facebook:hover{
+        font-size: 60px;}
+    
+    .bi-instagram{
+        font-size: 40px;}
+    .bi-instagram:hover{
+        font-size: 60px;}
+    
+    .bi-twitter{
+        font-size: 40px;}
+    .bi-twitter:hover{
+        font-size: 60px;}
+    
+    .bi-youtube{
+        font-size: 40px;}
+    .bi-youtube:hover{
+        font-size: 60px;}
+    
+    footer{
+        height: 100px;
+        p{
+            font-size: 60px;}
+    }
+}
